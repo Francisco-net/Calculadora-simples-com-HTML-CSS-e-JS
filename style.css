@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;   
+    font-family: "Roboto", serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:  100vh;
+}
+
+.calculadora{
+    width: 690px;
+    height: 454px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 8px;
+}   
+
+#keyReset{
+    color: #283779;
+    border: 1px solid #283779;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    width: 164px;
+    height: 42px;
+    margin-top: 12px;
+}
+
+#keyCalc{
+    width: 506px;
+    height: 42px;
+    margin-top: 12px;
+    color: #fff;
+    background-color: #283779;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#keyZero{
+    width: 336px;
+    height: 56px;
+}
+
+#display{
+    width: 678px;
+    height: 50px;
+    font-size: 24px;
+    padding-right: 8px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    background-color: #F2F2F2;
+    text-align: right;
+    border-radius: 6px;
+}
+
+button{
+    width: 164px;
+    height: 56px;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;  
+    margin-left: 4px;
+    margin-top: 12px;
+}
+
+button p{
+    display: flex;
+    background-color: #F2F2F2;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+#opkey {
+    font-size: 14px;
+    font-weight: 500;
+}
